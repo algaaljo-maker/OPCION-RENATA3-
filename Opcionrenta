@@ -1,0 +1,84 @@
+index.html<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Cumpleaños - Renata Mailen</title>
+    <style>
+        body {
+            background-color: #e0f7fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c3e50;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            border: 5px solid #81d4fa;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 { color: #0277bd; font-size: 2.5em; text-shadow: 2px 2px #fff; }
+        .frase { font-style: italic; color: #01579b; font-size: 1.2em; margin: 20px 0; }
+        .datos { font-size: 1.1em; line-height: 1.6; }
+        .highlight { color: #0288d1; font-weight: bold; font-size: 1.3em; }
+        .galeria { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0; }
+        .galeria img { 
+            width: 140px; height: 180px; object-fit: cover; 
+            border-radius: 10px; border: 3px solid #b3e5fc;
+        }
+        .button {
+            display: inline-block;
+            background-color: #0288d1;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .traje-bano {
+            background: #b3e5fc;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #01579b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>¡Una Aventura Congelada!</h1>
+        
+        <p class="frase">"El corazón que ama siempre será joven... <br> ¡Acompáñanos a celebrar la magia de los años de Renata!"</p>
+
+        <div class="galeria">
+            <img src="1000291482.jpg" alt="Renata en la playa">
+            <img src="1000179704.jpg" alt="Renata vestido típico">
+            <img src="1000169632.jpg" alt="Renata con gorrito">
+            <img src="1000272793.jpg" alt="Renata con luces">
+        </div>
+
+        <div class="datos">
+            <p><strong>Renata Mailen</strong> te invita a su fiesta de cumpleaños</p>
+            <p class="highlight">Sábado 9 de Mayo, 2026</p>
+            <p>🕒 11:30 AM</p>
+            <p>📍 <strong>Quinta La Providencia</strong></p>
+        </div>
+
+        <div class="traje-bano">
+            ❄️ ¡No olvides traer tu traje de baño para una diversión bajo el sol! ❄️
+        </div>
+
+        <p>Por favor, confirma tu asistencia:</p>
+        <a href="https://wa.me/529671511434" class="button">Confirmar al 9671511434</a>
+    </div>
+
+</body>
+</html>
